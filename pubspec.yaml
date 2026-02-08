@@ -1,0 +1,26 @@
+name: dessn_loader
+description: Dessn Loader
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_shaders: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^10.0.0
+
+flutter:
+  uses-material-design: false
+
+  assets:
+    - assets/images/og-image.png
+
+  shaders:
+    - assets/shaders/bloom.frag
